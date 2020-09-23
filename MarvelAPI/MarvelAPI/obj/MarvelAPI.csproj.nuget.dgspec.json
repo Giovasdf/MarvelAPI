@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gmoli\\source\\repos\\MarvelAPI\\MarvelAPI\\MarvelAPI.csproj": {}
+    "C:\\Users\\gmoli\\Desktop\\ReposDUOC\\MarvelAPI\\MarvelAPI\\MarvelAPI\\MarvelAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gmoli\\source\\repos\\MarvelAPI\\MarvelAPI\\MarvelAPI.csproj": {
+    "C:\\Users\\gmoli\\Desktop\\ReposDUOC\\MarvelAPI\\MarvelAPI\\MarvelAPI\\MarvelAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gmoli\\source\\repos\\MarvelAPI\\MarvelAPI\\MarvelAPI.csproj",
+        "projectUniqueName": "C:\\Users\\gmoli\\Desktop\\ReposDUOC\\MarvelAPI\\MarvelAPI\\MarvelAPI\\MarvelAPI.csproj",
         "projectName": "MarvelAPI",
-        "projectPath": "C:\\Users\\gmoli\\source\\repos\\MarvelAPI\\MarvelAPI\\MarvelAPI.csproj",
+        "projectPath": "C:\\Users\\gmoli\\Desktop\\ReposDUOC\\MarvelAPI\\MarvelAPI\\MarvelAPI\\MarvelAPI.csproj",
         "packagesPath": "C:\\Users\\gmoli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gmoli\\source\\repos\\MarvelAPI\\MarvelAPI\\obj\\",
+        "outputPath": "C:\\Users\\gmoli\\Desktop\\ReposDUOC\\MarvelAPI\\MarvelAPI\\MarvelAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gmoli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
